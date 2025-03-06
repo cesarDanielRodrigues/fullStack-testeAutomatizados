@@ -1,5 +1,3 @@
-export function sum(a:number,b:number){
-    return a + b
-}
+import { app } from "./app";
 
-console.log("hello world")
+app.listen(3333, ()=> console.log("Server is running"))
